@@ -28,4 +28,10 @@ public class EmailController {
         return new ResponseEntity<>(emailModel, HttpStatus.CREATED);
     }
 
+    // @GetMapping("/emails")
+    // public ResponseEntity<Page<EmailModel>> getAllEmails(@PageableDefault(page =
+    // 0, size = 5, sort = "emailId", direction = Sort.Direction.DESC) Pageable
+    // pageable){
+    // return new ResponseEntity<>(emailService.findAll(pageable), HttpStatus.OK);
+    // }
 }
